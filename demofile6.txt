@@ -1,0 +1,19 @@
+     Git commands
+
+
+git clone - Downloads latest version of a remote project and copying it to the selected location on 
+            the local machine.
+git add - this command is used to stage changed file.
+git add .  - this will stage all  changed files
+git commit - this will save changed file and commit on a localmachinegit push - it will push locally             commited file to remote branch
+git pull - it will fetch all changesfrom the remote repository and add it to local branch.
+git status - shows the working tree status.
+git diff - this will show the difference between commits or commit and branch etc.
+git branch - shows branch details.
+git checkout branchname - will go to specifc branch given.
+git checkout -b branchname - will create a new branch with specified branch name.
+git checkout -d branchname - will remove soecific branch from main branch
+git rm - will remove files from working tree.
+git merge - join two or more developments together.
+
+
