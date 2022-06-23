@@ -1,0 +1,29 @@
+VPC:
+    VPC is a portion of network in cloud(aws), where we can control all inbound and outbound traffic of a application or ec2 in network.
+    
+    vPC is divided into subnets, and each subnet is divide into two parts called public subnet and private subnet.
+
+Subnet:
+    Subnet in VPC is used for security purpose.
+    Each subnet is divided into two parts 
+    1.public subnet
+    2.private subnet
+    public subnet will help application directly connects to internet, so we can talk to internet and access any information we want.
+    privte subnet is more secure net , this will not tzalk or directly connected to internet.
+    so subnet will decrease trafic and allows to keep  secured sensitive data.
+
+Publicsubnet:
+    this public subnet has route table which will access any information in the internet throgh internet gateway.
+
+Private subnet:
+     this private subnet can't access internet directly. it need to check security check to aceess sensitive data.
+     this is directly connected  to data base. by using NAT it will coonect to gate way more secured way.
+
+Security group: Every public key has security group. what ever instance launched it will controll inbound and outbound traffic rules.so by using ths security group public subnet is talking to internet by using route table.
+
+Route table:
+      this has set of rules to route the application all inbound and outbound traaffic comntrol. by using this we able to connect to internet gateway to acces information. 
+  
+NAT : Network Adress TRanslation gateway helps private subnet connect to internet after checking security checks and allows or ristricts data based on access permisions. so data will be more secured.
+most of the enterprises use private subnet. data will be more secured and NAT acts as a firewall for instances.
+
